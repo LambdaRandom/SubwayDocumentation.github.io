@@ -5,11 +5,17 @@
     --main-hovered-color: #c1c1c1;
     --secondary-hovered-color: #a1a1a1;
 }
-
+img.smaller {
+    width: 600px
+}
 img {
-  width: 35%; /* takes the 100 % width of its container (.box div)*/
-  height: 35%; /* takes the 100 % height of its container (.box div)*/
-  border-radius: 15px;
+  border-radius: 10px;
+}
+span.blue {
+    color: #115aff;
+}
+span.yellow {
+    color: #ffff22;
 }
 body {
     background-color: var(--main-bg-color);
@@ -39,7 +45,7 @@ h2.change:hover {
     color: #115aff;
     transition: 0.1s;
 }
-h2.change_red:hover {
+.change_red:hover {
     color: #ff4000;
     transition: 0.1s;
 }
@@ -67,11 +73,11 @@ span.change_red:hover {
     transition: 0.1s;
 }
 img.compass {
-    height: 38%;
-    width: 20%;
+    height: 200px;
+    width: 200px;
     position: absolute;
-    left: 25%;
-    top: 10%
+    left: 35%;
+    top: 2%
 }
 img.compass:hover {
     transform: rotate(360deg);

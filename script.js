@@ -9,7 +9,12 @@ function myFunction_get() {
   alert("The value of --blue is: " + rs.getPropertyValue('--blue'));
 }
 
-var toggle = 'True'
+function setCookie(toggle):
+    document.cookie = 'state=' + toggle + ';' + 'path=/';
+
+function getCookie():
+    let cookies = document.cookie;
+    console.log(cookies)
 
 function toggleTheme() {
     if (toggle == 'True') {
