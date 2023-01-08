@@ -1,0 +1,48 @@
+:root {
+    --main-bg-color: #313131;
+    --main-title-color: #e9e9e9;
+    --main-content-color: #e9e9e9;
+}
+
+img {
+  width: 35%; /* takes the 100 % width of its container (.box div)*/
+  height: 35%; /* takes the 100 % height of its container (.box div)*/
+  border-radius: 15px;
+}
+body {
+    background-color: var(--main-bg-color);
+}
+h1, h2 {
+    color: var(--main-title-color);
+}
+p {
+    color: var(--main-content-color);
+}
+a, a:visited{
+     color: var(--main-content-color);
+}
+div.change_size{
+    font-size: 200%;
+    transition: 0.1s;
+}
+div.change_size:hover{
+    font-size: 220%;
+    transition: 0.1s;
+}
+
+p.set_red:hover { 
+  color: red;
+  transition: 0.1s;
+}
+p.set_blue:hover {
+    color: #00a5e0;
+    transition: 0.1s;
+}
+p.set_green:hover {
+    color: #22ff44;
+    transition: 0.1s;
+}
+p.set_yellow:hover {
+    color: #ffff22;
+    transition: 0.1s;
+}
