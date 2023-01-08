@@ -16,11 +16,15 @@ function toggleTheme() {
         r.style.setProperty('--main-bg-color', '#c8c8c8');
         r.style.setProperty('--main-content-color', '#313131');
         r.style.setProperty('--main-title-color', '#313131');
+        r.style.setProperty('--main-hovered-color', '#000000');
+        r.style.setProperty('--secondary-hovered-color', '#444444');
         toggle = 'False'
     } else {
         r.style.setProperty('--main-bg-color', '#313131');
         r.style.setProperty('--main-content-color', '#e9e9e9');
         r.style.setProperty('--main-title-color', '#e9e9e9');
+        r.style.setProperty('--main-hovered-color', '#c1c1c1');
+        r.style.setProperty('--secondary-hovered-color', '#a1a1a1');
         toggle = 'True'
     }
 }
